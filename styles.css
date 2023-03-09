@@ -1,0 +1,51 @@
+body{
+    background-color: navajowhite;
+    max-width: 100vh;
+    max-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    font-size: 15px;
+    text-align: center;
+}
+.center-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    min-width: 0;
+    width: 50vh;
+    height: 50vh;
+    background-color: white;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.squareInput{
+    font-size: 3px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    height: 50%;
+    flex: 1;
+}
+
+.mouseOver {
+    background-color: black;
+}
